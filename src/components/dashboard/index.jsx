@@ -10,6 +10,7 @@ import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 
 const Dashboard = () => {
+  
  const [products, setProducts] = useState([]);
  const [formData, setFormData] = useState({
    name: '',
@@ -21,12 +22,6 @@ const Dashboard = () => {
  
  const categories = ['Electronics', 'Clothing', 'Books'];
 
- const actionTemplate = (rowData) => (
-   <div className="flex gap-2">
-     <Button icon="pi pi-pencil" rounded text severity="info" />
-     <Button icon="pi pi-trash" rounded text severity="danger" />
-   </div>
- );
 
  const handleSubmit = (e) => {
    e.preventDefault();
@@ -39,6 +34,14 @@ const Dashboard = () => {
      category: null
    });
  };
+
+
+ const actionTemplate = (rowData) => (
+  <div className="flex gap-2">
+    <Button icon="pi pi-pencil" rounded text severity="info" />
+    <Button icon="pi pi-trash" rounded text severity="danger" />
+  </div>
+);
 
  return (
    <div className="min-h-screen bg-gray-50">
