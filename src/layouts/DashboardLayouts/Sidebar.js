@@ -84,7 +84,7 @@ export default function Sidebar() {
 
       {/* Sidebar Start*/}
       <aside className={` fixed lg:relative w-64 bg-white border-r border-gray-100 h-screen flex flex-col transform transition-transform duration-300 ease-in-out  ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'} z-40 `}>
-        \{/* Logo Section Start */}
+        {/* Logo Section Start */}
         <div className="px-6 py-4 flex items-center">
           <div className="flex items-center gap-2">
             {/* Logo Icon Start */}

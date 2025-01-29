@@ -1,0 +1,21 @@
+$primary-color: #007bff; // You can customize your primary color  
+
+.btn-primary {  
+  padding: 0.5rem 1rem;  
+  border: none;  
+  border-radius: 0.25rem;  
+  background-color: $primary-color;  
+  color: white;  
+  font-size: 1rem;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+
+  &:hover {  
+    background-color: darken($primary-color, 10%); // Darkens the color on hover  
+  }  
+
+  &:active {  
+    background-color: darken($primary-color, 15%); // Darkens further on active  
+  }  
+
+}
