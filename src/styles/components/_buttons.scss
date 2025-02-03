@@ -18,4 +18,8 @@ $primary-color: #007bff; // You can customize your primary color
     background-color: darken($primary-color, 15%); // Darkens further on active  
   }  
 
+  &:focus {  
+    outline: none;  
+    box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.5);  
+  }  
 }
