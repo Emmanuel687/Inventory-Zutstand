@@ -18,9 +18,9 @@ const Inventory = () => {
       <main className='bg-white min-h-screen p-4'>
         {/* Header Section Start */}
         <section className='flex justify-end mb-4'>
-          <button className='btn-primary' onClick={() => setVisible(true)}>
+          <button className='btn-primary flex items-center space-x-2' onClick={() => setVisible(true)}>
             <span className='pi pi-plus'></span>
-            <span>Add</span>
+            <span>Add Inventory</span>
           </button>
         </section>
         {/* Header Section End */}
