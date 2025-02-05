@@ -2,13 +2,6 @@
 
 // Imports Start
 import { useState } from 'react';
-import { DataTable } from 'primereact/datatable';
-import { Column } from 'primereact/column';
-import { InputText } from 'primereact/inputtext';
-import { InputNumber } from 'primereact/inputnumber';
-import { Dropdown } from 'primereact/dropdown';
-import { Button } from 'primereact/button';
-import { Card } from 'primereact/card';
 import CreateProduct from './CreateProduct';
 import ProductDataTable from './ProductDataTable';
 // Imports End

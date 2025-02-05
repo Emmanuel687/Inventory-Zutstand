@@ -1,16 +1,14 @@
 .p-inputnumber {
-  // Base container styling
   display: inline-flex;
   position: relative;
   width: 100%;
   max-width: 200px;
 
-  // Input field styling
   .p-inputtext {
     flex: 1 1 auto;
     width: 100%;
     padding: 0.75rem 1rem;
-    font-size: 1rem;
+    font-size: 12px;
     color: #495057;
     background: #ffffff;
     border: 1px solid #ced4da;
@@ -30,14 +28,11 @@
     &.p-filled {
       background-color: #ffffff;
     }
-
-    // Placeholder styling
     &::placeholder {
       color: #6c757d;
     }
   }
 
-  // Button styling for spinner mode
   &.p-inputnumber-buttons-stacked {
     .p-inputnumber-button-group {
       display: flex;
@@ -92,7 +87,6 @@
     }
   }
 
-  // Horizontal button layout
   &.p-inputnumber-buttons-horizontal {
     .p-inputnumber-button-group {
       display: flex;
@@ -132,7 +126,6 @@
     }
   }
 
-  // Currency/Prefix styling
   &.p-inputnumber-prefix {
     .p-inputtext {
       padding-left: 2rem;
@@ -146,7 +139,6 @@
     }
   }
 
-  // Invalid state
   &.p-invalid.p-component {
     .p-inputtext {
       border-color: #dc3545;
@@ -161,7 +153,6 @@
     }
   }
 
-  // Disabled state
   &.p-disabled {
     opacity: 0.6;
     
@@ -173,7 +164,6 @@
   }
 }
 
-// Dark theme
 .p-inputnumber.dark-theme {
   .p-inputtext {
     background: #1e1e1e;
@@ -214,7 +204,6 @@
   }
 }
 
-// Size variants
 .p-inputnumber {
   &.p-inputnumber-sm {
     .p-inputtext {
