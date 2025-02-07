@@ -1,28 +1,43 @@
-# Next.js PrimeReact Template
-A modern, feature-rich template built with Next.js and PrimeReact for rapid application development. This template provides a solid foundation for building scalable web applications with a beautiful UI component library.
+# Zustand in Nuxt Project  
 
-# Features
+This is a Nuxt.js project that integrates Zustand for state management. Zustand provides a simple and efficient way to manage application state using hooks, making it an excellent choice for modern web applications.  
 
-⚡ Next.js 14 with App Router.
+## Table of Contents  
 
-🎨 PrimeReact UI Components
+- [Features](#features)  
+- [Technologies Used](#technologies-used)  
+- [Getting Started](#getting-started)  
+- [Folder Structure](#folder-structure)  
+- [Usage](#usage)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-📱 Responsive Design.
+## Features  
 
-📊 Dashboard Layout
+- Lightweight state management with Zustand  
+- Seamless integration with Nuxt.js  
+- Reactive and minimalistic API  
+- Easy to understand and use  
 
-🎨 Theme Customization
+## Technologies Used  
 
-🚀 Performance Optimized
+- [Nuxt.js](https://nuxtjs.org/) - Vue.js framework  
+- [Zustand](https://github.com/pmndrs/zustand) - Small, fast and scalable bearbones state-management solution  
+- Vue.js - JavaScript framework for building user interfaces  
+- JavaScript (ES6+)  
 
-# Prerequisites
+## Getting Started  
 
-Node.js (version 18.17 or higher)
-npm or yarn package manager..
+### Prerequisites  
 
-# License
+Make sure you have the following tools installed:  
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- [Node.js](https://nodejs.org/) (version 12 or newer)  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) package manager  
 
+### Installation  
 
-Made with ❤️ by Emmanuel
+1. Clone the repository:  
+
+   ```bash  
+   git clone https://github.com/yourusername/zustland.git
