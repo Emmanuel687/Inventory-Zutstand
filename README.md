@@ -12,6 +12,7 @@ This is a Nuxt.js project that integrates Zustand for state management. Zustand 
 - [Contributing](#contributing)  
 - [License](#license)  
 
+
 ## Features  
 
 - Lightweight state management with Zustand  
