@@ -1,6 +1,6 @@
 # Zustand in Nuxt Project.
 
-This is a Nuxt.js project that integrates Zustand for state management. Zustand provides a simple and efficient way to manage application state using hooks, making it an excellent choice for modern web applications.  
+This is a Nuxt.js project that integrates Zustand for state management. Zustand provides a simple and efficient way to manage application state using hooks, making it an excellent choice for modern web applications.  ..
 
 ## Table of Contents  
 
