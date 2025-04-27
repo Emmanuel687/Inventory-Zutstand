@@ -15,7 +15,7 @@ This is a Nuxt.js project that integrates Zustand for state management. Zustand 
 
 ## Features  
 
-- Lightweight state management with Zustand  
+- Lightweight state management with Zustand . 
 - Seamless integration with Nuxt.js  
 - Reactive and minimalistic API  
 - Easy to understand and use  
